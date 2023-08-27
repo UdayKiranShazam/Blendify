@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "381346395853",
+    "project_id": "blendify-397117",
+    "storage_bucket": "blendify-397117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381346395853:android:ca6fc4458cc7000380db84",
+        "android_client_info": {
+          "package_name": "com.blendify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381346395853-cunk4pibpgv1751735bbjnbmn1g2cq6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blendify",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "381346395853-0n59ob0l8ma3t567lhklq8sk06dqt00b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChD6WUarjJYj1UGl3B0_USX0NGRMdXknI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381346395853-0n59ob0l8ma3t567lhklq8sk06dqt00b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
