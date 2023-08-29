@@ -11,7 +11,7 @@ import { googleApi } from '../apis/auth';
 import { fetchProfile } from '../apis/user';
 
 const StartScreen = () => {
-  const { webClientId, androidClientId } = env;
+  const { webClientId, androidClientId, iosClientId } = env;
   const { logIn, saveUserData } = useContext(AuthContext);
   const [authenticating, setAuthenticating] = useState(false);
 
@@ -19,9 +19,10 @@ const StartScreen = () => {
     GoogleSignin.configure({
       webClientId,
       androidClientId,
+      iosClientId,
       offlineAccess: true
     });
-  }, [webClientId, androidClientId]);
+  }, [webClientId, androidClientId, iosClientId]);
 
   const toast = (errorMessage) => {
     Toast.show({
